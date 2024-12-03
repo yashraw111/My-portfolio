@@ -1,0 +1,425 @@
+* {
+  font-family: "Host Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
+body{
+  background-color: rgb(25, 25, 25);
+
+}
+
+.Homepage {
+  /* height: 100vh; */
+  width: 100%;
+}
+.Header h2 {
+  color: white;
+  cursor: pointer;
+  font-size: 35px;
+  font-size: 40px;
+  font-weight: bold;
+  background: linear-gradient(90deg, #00b4db, #8a2be2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+.Header .navbar-brand:hover {
+  color: #7e7676;
+  /* box-shadow: 2px 2px; */
+}
+.Header .nav-link {
+  color: rgb(186, 187, 188);
+  font-weight: 600;
+  margin-right: 20px;
+}
+
+/* Navbar Links Styling */
+.navbar-nav .nav-link {
+  font-size: 18px;
+  /* color: ; */
+  font-weight: 500;
+  padding: 10px 15px;
+  transition: all 0.3s ease;
+  position: relative;
+}
+.navbar-toggler-icon{
+  /* color: white; */
+  background-image: none;
+  font-size: 20px;
+}
+.navbar-toggler-icon i{
+  font-size: 30px;
+  color: #C8CCD3;
+}
+.navbar-toggler{
+  border: 2px solid white;
+}
+/* Hover Effect */
+.navbar-nav .nav-link::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3px;
+  background-color: #007bff; /* Blue color for hover underline */
+  bottom: 0;
+  left: 0;
+  transition: width 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover::before {
+  width: 100%; /* Full width on hover */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff; /* Change link color on hover */
+}
+
+/* Social Icons Styling */
+/* .social a {
+  color: #333;
+  font-size: 24px;
+  margin: 0 10px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social a:hover ,.social i{
+  color: #007bff; /* Change color on hover */
+  /* transform: scale(1.1); Slightly enlarge the icon */
+/* } */ 
+
+
+.Detail-img {
+  /* height: 80vh; */
+  width: 100%;
+}
+.Detail-img .details h1 {
+  font-size: 55px;
+}
+.Detail-img .details p {
+  color: rgba(219, 219, 219, 0.885);
+}
+.Detail-img .details .location a {
+  text-decoration: none;
+  color: rgb(200, 204, 211);
+}
+
+.Detail-img .gradient-text {
+  font-size: 48px;
+  font-weight: bold;
+  background: linear-gradient(90deg, #00b4db, #8a2be2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.Header .social a {
+  border-radius: 50%;
+}
+.Header .social i{
+    color: black;
+    padding: 10px;
+    background-color: rgb(200, 204, 211);
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+
+
+.profile-container {
+  position: relative;
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  padding: 5px; /* For the animated border effect */
+  background: linear-gradient(
+    45deg,
+    #0000ff,
+    #00b4db,
+    #8a2be2
+  );
+  background-size: 400%;
+  animation: steam 10s linear infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-container:after {
+  content: "";
+  position: absolute;
+  left: -2px;
+  top: -2px;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  border-radius: 50%;
+  background: inherit;
+  filter: blur(30px);
+  z-index: -1;
+}
+
+@keyframes steam {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.profile-pic {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #000; /* Inner dark border */
+}
+
+.Detail-img .img-part .image img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #1a1a1a;
+}
+footer .gradient-text {
+  /* font-size: 48px; */
+  font-weight: bold;
+  background: linear-gradient(90deg, #00b4db, #8a2be2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+footer p {
+  color: #cccccc;
+  font-size: 12px;
+}
+
+
+.AboutSec h1{
+    color: #CCCCCC;
+    font-size: 50px;
+    font-weight: 800;
+}
+.AboutSec p{
+    color: #a0a0a0;
+    /* width: 80%; */
+}
+.AboutSec .details h2{
+  color: #A7A7A7;
+  font-weight: 300;
+}
+.AboutSec .details .Time span{
+  padding: 4px 12px;
+  border-radius: 15px;
+  font-size: 12px;
+  background-color: #D7FFE0;
+  color: #018C0F;
+}
+.technologies h1{
+  color: #CCCCCC;
+  font-size: 60px;
+  margin-top: 30px;
+  font-weight: 600;
+}
+.technologies p{
+  color: #CCCCCC;
+  font-weight: 200;
+}
+.technologies img{
+  width: 50px;
+  height: 50px;
+  /* padding: 30px; */
+  /* background-color: red; */
+}
+.technologies .imgbox{
+
+}
+.contact{
+  /* height: 80vh; */
+  width: 100%;
+}
+.contact h2{
+  font-size: 60px;
+  font-weight: 700;
+  color: #CCCCCC;
+}
+
+.contact .gradient-text {
+  font-size: 58px;
+  font-weight: bold;
+  background: linear-gradient(90deg, #00b4db, #8a2be2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
+  color: transparent;
+}
+.contact p{
+  color: #CCCCCC;
+}
+.loading{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.spinner-box {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  position: relative;
+}
+
+.leo {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.blue-orbit {
+  width: 165px;
+  height: 165px;
+  border: 1px solid #91daffa5;
+  animation: spin3D 3s linear 0.2s infinite;
+}
+
+.green-orbit {
+  width: 120px;
+  height: 120px;
+  border: 1px solid #91ffbfa5;
+  animation: spin3D 2s linear 0s infinite;
+}
+
+.red-orbit {
+  width: 90px;
+  height: 90px;
+  border: 1px solid #ffca91a5;
+  animation: spin3D 1s linear 0s infinite;
+}
+
+.white-orbit {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #ffffff;
+  animation: spin3D 10s linear 0s infinite;
+}
+
+.w1 {
+  transform: rotate3D(1, 1, 1, 90deg);
+}
+
+.w2 {
+  transform: rotate3D(1, 2, 0.5, 90deg);
+}
+
+.w3 {
+  transform: rotate3D(0.5, 1, 2, 90deg);
+}
+  @keyframes spin3D {
+  from {
+    transform: rotate3d(0.5, 0.5, 0.5, 0deg);
+  }
+  to {
+    transform: rotate3d(0.5, 0.5, 0.5, 360deg);
+  }
+}
+.resume {
+  max-width: 900px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.section-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2c3e50;
+  border-bottom: 2px solid #2c3e50;
+  margin-bottom: 15px;
+}
+.contact-info i {
+  margin-right: 8px;
+  color: #3498db;
+}
+.list-unstyled li {
+  margin-bottom: 8px;
+}
+.center-text {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
+ .dowloadbtn a{
+  text-decoration: none;
+  padding: 7px 5px;
+  /* background: linear-gradient(90deg, #00b4db, #8a2be2); */
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  /* background-color: red; */
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; */
+
+}
+.dowloadbtn button{
+  background-color: #C8CCD3;
+  position: relative;
+  /* width: 230px; */
+  /* height: 230px; */
+  /* border-radius: 50%; */
+  border-radius: 50px;
+  border: none;
+  padding: 5px; /* For the animated border effect */
+  background: linear-gradient(
+    45deg,
+    #0000ff,
+    #00b4db,
+    #8a2be2
+  );
+  background-size: 400%;
+  animation: btnanimation 10s linear infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dowloadbtn button:after {
+  content: "";
+  position: absolute;
+  left: -2px;
+  top: -2px;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  border-radius: 50%;
+  background: inherit;
+  filter: blur(30px);
+  z-index: -1;
+}
+
+@keyframes btnanimation {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
