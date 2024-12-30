@@ -3,7 +3,8 @@ import './assets/css/style.css'
 import Loading from './layout/Loading';
 import MainPage from './layout/MainPage';
 import { useEffect, useState } from 'react';
-
+import 'aos/dist/aos.css'; // AOS ke CSS animations
+import AOS from 'aos';
 function App() {
 
   const [loading, setLoading] = useState(true);
@@ -13,6 +14,14 @@ function App() {
       setLoading(false);
     }, 3000); 
   }, []);
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, 
+      once: true,     
+    });
+  }, []);
+
   return (
     <>
     <div>

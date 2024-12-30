@@ -22,29 +22,29 @@ const Technologies = () => {
           <div className="teckStack">
             <h1>Tech Stack</h1>
             <p>Technologies i've been working with recently </p>
-            <div className="row">
-              <div className="col-lg-2 col-md-4 col-sm-6 d-flex col-6 justify-content-center imgbox  py-3 py-2">
+            <div className="row ">
+              <div className="col-lg-2 mt-5 col-md-4 col-sm-6 d-flex col-6 justify-content-center imgbox  py-3 py-2">
                 <img src={html} alt="" />
               </div>
-              <div className="col-lg-2 col-md-4 col-sm-6 d-flex col-6 justify-content-center imgbox  py-3">
+              <div className="col-lg-2 mt-5 col-md-4 col-sm-6 d-flex col-6 justify-content-center imgbox  py-3">
                 <img src={css} alt="" />
               </div>
-              <div className="col-lg-2 col-md-4 col-sm-6 d-flex col-6 justify-content-center imgbox  py-3">
+              <div className="col-lg-2 mt-5 col-md-4 col-sm-6 d-flex col-6 justify-content-center imgbox  py-3">
                 <img src={js} alt="" />
               </div>
-              <div className="col-lg-2 col-md-4 col-sm-6 d-flex col-6 justify-content-center imgbox  py-3">
+              <div className="col-lg-2 mt-5 col-md-4 col-sm-6 d-flex col-6 justify-content-center imgbox  py-3">
                 <img src={bootstrap} alt="" />
               </div>
-              <div className="col-lg-2 col-md-4 col-sm-6 d-flex col-6 justify-content-center imgbox  py-3">
+              <div className="col-lg-2 mt-5 col-md-4 col-sm-6 d-flex col-6 justify-content-center imgbox  py-3">
                 <img src={tailwind} alt="" />
               </div>
-              <div className="col-lg-2 col-md-4 col-sm-6 d-flex col-6 justify-content-center imgbox  py-3">
+              <div className="col-lg-2 mt-5 col-md-4 col-sm-6 d-flex col-6 justify-content-center imgbox  py-3">
                 <img src={redux} alt="" />
               </div>
-              <div className="col-lg-2 col-md-4 col-sm-6 d-flex col-6 justify-content-center imgbox  py-3">
+              <div className="col-lg-2 mt-5 col-md-4 col-sm-6 d-flex col-6 justify-content-center imgbox  py-3">
                 <img src={react} alt="" />
               </div>
-              <div className="col-lg-2 col-md-4 col-sm-6 d-flex col-6 justify-content-center imgbox  py-3">
+              <div className="col-lg-2 mt-5 col-md-4 col-sm-6 d-flex col-6 justify-content-center imgbox  py-3">
                 <img src={jquery} alt="" width={100} />
               </div>
             </div>
@@ -52,22 +52,24 @@ const Technologies = () => {
           <div className="teckStack">
             <h1>Tools</h1>
             <div className="row ">
-              <div className="col-lg-2 col-md-4 col-sm-6 d-flex col-6 justify-content-center imgbox  py-3 py-2">
+              <div className="col-lg-2 mt-5 col-md-4 col-sm-6 d-flex col-6 justify-content-center imgbox  py-3 py-2">
                 <img src={vs} alt="" />
               </div>
-              <div className="col-lg-2 col-md-4 col-sm-6 d-flex col-6 justify-content-center imgbox  py-3">
+              <div className="col-lg-2 mt-5 col-md-4 col-sm-6 d-flex col-6 justify-content-center imgbox  py-3">
                 <img src={git} alt="" />
               </div>
-              <div className="col-lg-2 col-md-4 col-sm-6 d-flex col-6 justify-content-center imgbox  py-3">
+              <div className="col-lg-2 mt-5 col-md-4 col-sm-6 d-flex col-6 justify-content-center imgbox  py-3">
                 <img src={github} alt="" />
               </div>
-              <div className="col-lg-2 col-md-4 col-sm-6 d-flex col-6 justify-content-center imgbox  py-3 d-flex align-items-center">
+              <div className="col-lg-2 mt-5 col-md-4 col-sm-6 d-flex col-6 justify-content-center imgbox  py-3 d-flex align-items-center">
                 <img src={npm} alt="" />
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      
     </>
   );
 };
