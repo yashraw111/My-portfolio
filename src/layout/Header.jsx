@@ -9,6 +9,7 @@ const Header = () => {
           <div class="container ">
             <h2 class="navbar-brand " href="#">
               Yash
+              
             </h2>
             <button
               class="navbar-toggler"
