@@ -12,7 +12,7 @@ const education = () => {
           {/* Course 1 */}
           <div className="details row border-bottom py-3 align-items-center">
             <div className="col-md-8 col-sm-12">
-              <h2>Frontend Development</h2>
+              <h2>FullStack Development</h2>
               <p>
                 <i className="fa-solid fa-building"></i> Red & White, YouTube
                 <i className="fa-solid fa-location-dot ms-2"></i> Offline

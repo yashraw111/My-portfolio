@@ -1,7 +1,6 @@
 import React from "react";
 import profile from '../assets/Images/myprofileimage.png'
-
-import education from "./education";
+import Education from '../layout/Education'
 const About = () => {
   return (
     <div className="AboutSec mt-5">
@@ -35,7 +34,8 @@ const About = () => {
 
         </div>
         {/* Education Section */}
-       {/* <education/> */}
+        <Education/>
+       
       </div>
     </div>
   );
