@@ -1,17 +1,24 @@
 import React from "react";
 import mobileweb from "../assets/Images/mobile-web.png";
 import userMenegement from "../assets/Images/user-management.png";
-import authentication from "../assets/Images/Sign-in&Sign-up.png";
+import authentication from "../assets/Images/signup-in.png";
 import TicTocToe from "../assets/Images/tic-tac-toe.png";
 
 const Project = () => {
   return (
     <>
       <div className="ProjectSec">
+      <div class="top-boarder">
+      
+      </div>
         <section className="work-process-section" id="processDiv">
           <div className="container">
             <div className="heading-block text-center">
-              <h1 className="heading mb-3">__MY PROJECT__</h1>
+              {/* <h1 className="heading mb-3">__MY PROJECT__</h1> */}
+              <div class="btn-container mt-3 mb-4">
+            <div class="line"></div>
+            <button class="btn">__MY PROJECT__</button>
+          </div>
               <p className="description">
                 Exploring creativity through code! Here are some of the exciting
                 projects I have worked on, showcasing my skills in web
@@ -24,11 +31,11 @@ const Project = () => {
             <div className="work-process-block work-process-layout1 " >
               <div className="row gy-4">
                 {/* Project 1 */}
-                <div className="col-lg-3 col-md-6 col-sm-12">
+                <div className="col-lg-4 col-md-6 col-sm-12">
                   <div className="vs-work-process text-center p-3 shadow-sm">
                     <div className="work-process-top">
-                      <span className="shape"></span>
-                      <span className="number border-white text-white">01</span>
+                      {/* <span className="shape"></span> */}
+                      {/* <span className="number border-white text-white">01</span> */}
                     </div>
                     <div className="work-process-content">
                       <div className="icon">
@@ -57,11 +64,11 @@ const Project = () => {
                 </div>
 
                 {/* Project 2 */}
-                <div className="col-lg-3 col-md-6 col-sm-12">
+                <div className="col-lg-4 col-md-6 col-sm-12">
                   <div className="vs-work-process text-center p-3 shadow-sm">
                     <div className="work-process-top">
-                      <span className="shape"></span>
-                      <span className="number border-white text-white">02</span>
+                      {/* <span className="shape"></span>
+                      <span className="number border-white text-white">02</span> */}
                     </div>
                     <div className="work-process-content">
                       <div className="icon">
@@ -91,11 +98,11 @@ const Project = () => {
                 </div>
 
                 {/* Project 3 */}
-                <div className="col-lg-3 col-md-6 col-sm-12">
+                <div className="col-lg-4 col-md-6 col-sm-12">
                   <div className="vs-work-process text-center p-3 shadow-sm">
                     <div className="work-process-top">
-                      <span className="shape"></span>
-                      <span className="number border-white text-white">03</span>
+                      {/* <span className="shape"></span>
+                      <span className="number border-white text-white">03</span> */}
                     </div>
                     <div className="work-process-content">
                       <div className="icon">
@@ -125,11 +132,11 @@ const Project = () => {
                 </div>
 
                 {/* Project 4 */}
-                <div className="col-lg-3 col-md-6 col-sm-12">
+                <div className="col-lg-4 col-md-6 col-sm-12">
                   <div className="vs-work-process text-center p-3 shadow-sm">
                     <div className="work-process-top">
-                      <span className="shape"></span>
-                      <span className="number border-white text-white">04</span>
+                      {/* <span className="shape"></span>
+                      <span className="number border-white text-white">04</span> */}
                     </div>
                     <div className="work-process-content">
                       <div className="icon">

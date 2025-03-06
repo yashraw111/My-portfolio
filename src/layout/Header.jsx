@@ -68,7 +68,7 @@ const Header = () => {
                 </li>
               </ul>
 
-              <div className="social">
+              {/* <div className="social">
                 <a href="https://github.com/yashraw111" target="blank">
                   <i class="fa-brands fa-github"></i>
                 </a>
@@ -78,7 +78,7 @@ const Header = () => {
                 <a href="https://www.linkedin.com/in/yash-panchal-6985312b0/">
                   <i class="fa-brands fa-linkedin-in" target="blank"></i>
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         </nav>

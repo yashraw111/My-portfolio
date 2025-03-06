@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <div className="text-center">
+        <div className="text-center mt-5">
           <p>
             develop and Coded by Yash Panchal with{" "}
             <span class="gradient-text"> Love </span> 
