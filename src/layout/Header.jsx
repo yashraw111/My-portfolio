@@ -4,9 +4,9 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
   return (
     <>
-      <div className="Header ">
+      <div className="Header container ">
         <nav class="navbar navbar-expand-lg navbar-light  ">
-          <div class="container ">
+          <div class="container justify-content-between">
             <h2 class="navbar-brand " href="#">
               Yash
               

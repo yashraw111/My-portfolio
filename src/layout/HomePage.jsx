@@ -43,7 +43,7 @@ const HomePage = () => {
                 </button>
                   </NavLink>
                 <button className="resume-btn">
-                <a href="../assets/Images/mern resume (1).pdf" className="text-decoration-none text-white" download>
+                <a href="../assets/Images/yashResume.pdf" className="text-decoration-none text-white" download>
                 GET RESUME <i className="fa-solid fa-download"></i>
             </a>
                
@@ -61,10 +61,10 @@ const HomePage = () => {
       <br /><br />
       <About />
       <br /><br />
-      <Technologies />
+      {/* <Technologies /> */}
       <br /><br />
-      <Project />
-      <Contact/>
+      {/* <Project /> */}
+      {/* <Contact/> */}
       {/* <Resume /> */}
     </>
   );

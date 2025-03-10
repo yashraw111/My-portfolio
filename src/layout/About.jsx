@@ -3,10 +3,10 @@ import profile from '../assets/Images/myprofileimage.png'
 import Education from '../layout/Education'
 const About = () => {
   return (
-    <div className="AboutSec mt-5">
+    <div className="AboutSec ">
       <div className="container">
         {/* About Me Section */}
-        <div className="AboutMe  mb-5">
+        <div className="AboutMe ">
           {/* <div class="btn-container mb-4">
             <div class="line"></div>
             <button class="btn">About Me</button>
