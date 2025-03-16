@@ -110,7 +110,7 @@ const Resume = () => {
         <section>
           <h2 className="section-title">Hobbies</h2>
           <ul>
-            <li>Music</li>
+            {/* <li>Music</li> */}
             <li>Coding</li>
             <li>Online Gaming</li>
           </ul>

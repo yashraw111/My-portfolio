@@ -59,13 +59,37 @@ const HomePage = () => {
         </div>
       </div>
       <br /><br />
-      <About />
-      <br /><br />
-      {/* <Technologies /> */}
-      <br /><br />
-      {/* <Project /> */}
-      {/* <Contact/> */}
-      {/* <Resume /> */}
+      <div className="AboutSec ">
+      <div className="container">
+        {/* About Me Section */}
+        <div className="AboutMe ">
+          {/* <div class="btn-container mb-4">
+            <div class="line"></div>
+            <button class="btn">About Me</button>
+          </div> */}
+          <h2>WHO I AM?</h2>
+          <div className="d-flex">
+
+          <p className="mt-3">
+            A dedicated Full Stack Web Developer with expertise in both frontend
+            and backend technologies, including HTML, CSS, JavaScript,
+            Bootstrap, jQuery, Tailwind, React.js, Redux, Node.js, Express.js,
+            and MongoDB. Currently advancing skills through a Full Stack
+            Development course at Red & White Multimedia. Passionate about
+            developing end-to-end web solutions, skilled in creating responsive
+            and user-friendly frontend interfaces and implementing robust and
+            scalable backend architectures. Proficient in optimizing UI/UX
+            designs, ensuring cross-browser compatibility, and integrating APIs
+            to enhance application functionality.
+          </p>
+          <div className="img-sec">
+
+          </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
     </>
   );
 };

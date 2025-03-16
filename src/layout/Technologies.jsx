@@ -12,11 +12,11 @@ import mongodb from "../assets/Images/mongoDB.svg";
 import git from "../assets/Images/git.svg";
 import github from "../assets/Images/github.png";
 import api from "../assets/Images/api-svgrepo-com.svg";
-// import react from "../assets/Images/react.svg";
-// import react from "../assets/Images/react.svg";
 
-
-// import postman from "../assets/Images/";
+import postman from "../assets/Images/postman-icon-svgrepo-com (1).svg";
+import cloudinary from "../assets/Images/cloudinary-svgrepo-com.svg";
+import ejs from "../assets/Images/ejs-svgrepo-com.svg";
+import firebase from "../assets/Images/firebase.svg";
 
 const Technologies = () => {
 
@@ -38,7 +38,7 @@ const Technologies = () => {
                 <div className="imgbox">
 
                 <img src={html} alt="" />
-                <p>HTML</p> 
+                <p className="mt-2">HTML</p> 
                 </div>
               </div>
             
@@ -46,7 +46,7 @@ const Technologies = () => {
                 <div className="imgbox">
 
                 <img src={css} alt="" />
-                <p>CSS</p> 
+                <p className="mt-2">CSS</p> 
                 </div>
               </div>
             
@@ -54,7 +54,7 @@ const Technologies = () => {
                 <div className="imgbox">
 
                 <img src={javascript} alt="" />
-                <p className="mt-2">JAVASCRIPT</p> 
+                <p className="mt-3">JAVASCRIPT</p> 
                 </div>
               </div>
             
@@ -62,21 +62,21 @@ const Technologies = () => {
                 <div className="imgbox">
 
                 <img src={bootstrap} alt="" />
-                <p className="mt-2">BOOTSTRAP</p> 
+                <p className="mt-3">BOOTSTRAP</p> 
                 </div>
               </div>
               <div className="col-lg-2  col-md-3 col-sm-6 mt-5    col-6 justify-content-center text-center   ">
                 <div className="imgbox">
 
                 <img src={react} alt="" />
-                <p className="mt-3">REACT</p> 
+                <p className="mt-4">REACT</p> 
                 </div>
               </div>
               <div className="col-lg-2  col-md-3 col-sm-6 mt-5    col-6 justify-content-center text-center   ">
                 <div className="imgbox">
 
                 <img className="mt-2" src={tailwind} alt="" />
-                <p className="mt-3">TAILWIND</p> 
+                <p className="mt-4">TAILWIND</p> 
                 </div>
               </div>
               <div className="col-lg-2  col-md-3 col-sm-6 mt-5    col-6 justify-content-center text-center   ">
@@ -119,6 +119,41 @@ const Technologies = () => {
 
                 <img className="mt-2" src={redux} alt="" />
                 <p className="mt-3">REDUX</p> 
+                </div>
+              </div>
+              <div className="col-lg-2  col-md-3 col-sm-6 mt-5    col-6 justify-content-center text-center   ">
+                <div className="imgbox">
+
+                <img className="mt-2" src={api} alt="" />
+                <p className="mt-3">API</p> 
+                </div>
+              </div>
+              <div className="col-lg-2  col-md-3 col-sm-6 mt-5    col-6 justify-content-center text-center   ">
+                <div className="imgbox">
+
+                <img className="mt-2" src={postman} alt="" />
+                <p className="mt-3">POSTMAN</p> 
+                </div>
+              </div>
+              <div className="col-lg-2  col-md-3 col-sm-6 mt-5    col-6 justify-content-center text-center   ">
+                <div className="imgbox">
+
+                <img className="mt-2" src={cloudinary} alt="" />
+                <p className="mt-3">CLOUDINARY</p> 
+                </div>
+              </div>
+              <div className="col-lg-2  col-md-3 col-sm-6 mt-5    col-6 justify-content-center text-center   ">
+                <div className="imgbox">
+
+                <img className="mt-2" src={ejs} alt="" />
+                <p className="mt-3">EJS</p> 
+                </div>
+              </div>
+              <div className="col-lg-2  col-md-3 col-sm-6 mt-5    col-6 justify-content-center text-center   ">
+                <div className="imgbox">
+
+                <img className="mt-2" src={firebase} alt="" height="50" />
+                <p className="mt-3">FIREBASE</p> 
                 </div>
               </div>
             

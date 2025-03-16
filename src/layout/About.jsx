@@ -1,9 +1,10 @@
 import React from "react";
 import profile from '../assets/Images/myprofileimage.png'
 import Education from '../layout/Education'
+import Certificate from "./certificates";
 const About = () => {
   return (
-    <div className="AboutSec ">
+    <div className="AboutSec mt-4 ">
       <div className="container">
         {/* About Me Section */}
         <div className="AboutMe ">
@@ -37,6 +38,7 @@ const About = () => {
         <Education/>
        
       </div>
+      <Certificate/>
     </div>
   );
 };

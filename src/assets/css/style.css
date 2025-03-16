@@ -179,8 +179,8 @@ body {
 
 .Homepage .profile-container {
   position: relative;
-  width: 230px;
-  height: 230px;
+  width: 260px;
+  height: 260px;
   border-radius: 50%;
   padding: 5px; /* For the animated border effect */
   background: linear-gradient(45deg, #0000ff, #00b4db, #8a2be2);
