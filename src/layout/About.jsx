@@ -1,7 +1,6 @@
 import React from "react";
-import profile from '../assets/Images/myprofileimage.png'
 import Education from '../layout/Education'
-import Certificate from "./certificates";
+import Certificate from "./Certificates";
 const About = () => {
   return (
     <div className="AboutSec mt-4 ">
